@@ -1,4 +1,12 @@
 
+print("==============================================")
+print("                BIENVENIDO")
+print("==============================================")
+
+nombre= input("\nCómo es su nombre: ")
+
+print(f"\nHola, {nombre}\n")
+
 while True:
     try:
         masa = input("Ingrese su peso (en kg): ")
@@ -31,5 +39,8 @@ elif IMC > 24.5 and IMC <= 29.9:
 else:
     print("Tiene obesidad")
 
+
 print("Recuerde que el índice de masa corporal no es")
 print("un indicador de salud sino un estandar")
+
+print("")
